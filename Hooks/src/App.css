@@ -19,8 +19,25 @@
   color: white;
 }
 
+.button-container {
+  display: flex;
+}
+
 .App-link {
+  margin: 2rem 1rem 0 1rem;
+  padding: 1rem;
   color: #61dafb;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.App-link:hover {
+  background-color: #61dafb;
+  color: #2f2f2f;
+}
+
+.App-link::selection {
+  background-color: transparent;
 }
 
 @keyframes App-logo-spin {
